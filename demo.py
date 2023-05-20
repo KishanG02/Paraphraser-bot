@@ -1,7 +1,7 @@
 import warnings
 warnings.filterwarnings("ignore")
 from parrot import Parrot
-parrot = Parrot(model_tag="prithivida/parrot_paraphraser_on_T5")
+parrot = Parrot(model_tag="KishanG02/parrot_paraphraser_on_T5")
 phrases = ["Can you recommed some upscale restaurants in Rome?"]
 for phrase in phrases:
   print("-"*100)
