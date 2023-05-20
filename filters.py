@@ -2,7 +2,7 @@ import torch
 
 class Adequacy():
   
-  def __init__(self, model_tag='prithivida/parrot_adequacy_model'):
+  def __init__(self, model_tag='KishanG02/parrot_adequacy_model'):
     from transformers import AutoModelForSequenceClassification, AutoTokenizer
     self.adequacy_model = AutoModelForSequenceClassification.from_pretrained(model_tag)
     self.tokenizer = AutoTokenizer.from_pretrained(model_tag)
@@ -37,7 +37,7 @@ class Adequacy():
       return adequacy_scores
 
 class Fluency():
-  def __init__(self, model_tag='prithivida/parrot_fluency_model'):
+  def __init__(self, model_tag='KishanG02/parrot_fluency_model'):
     from transformers import AutoModelForSequenceClassification, AutoTokenizer
     self.fluency_model = AutoModelForSequenceClassification.from_pretrained(model_tag, num_labels=2)
     self.fluency_tokenizer = AutoTokenizer.from_pretrained(model_tag)
