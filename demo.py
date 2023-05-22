@@ -12,7 +12,7 @@ for phrase in phrases:
                                 diversity_ranker="levenshtein",
                                 do_diverse=False, 
                                 max_return_phrases = 10, 
-                                max_length=32, 
+                                max_length=1000, 
                                 adequacy_threshold = 0.99, 
                                 fluency_threshold = 0.90)
   for paraphrase in para_phrases:                                  
