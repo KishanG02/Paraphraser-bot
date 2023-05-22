@@ -255,10 +255,10 @@ TBD
 To cite Parrot in your work, please use the following bibtex reference:
 
 ```bibtex
-@misc{prithivida2021parrot,
-  author       = {Prithiviraj Damodaran},
+@misc{KishanG02Paraphraser-bot,
+  author       = {Krishna Gupta},
   title        = {Parrot: Paraphrase generation for NLU.},
-  year         = 2021,
+  year         = 2023,
   version      = {v1.0}
 }
 ```
